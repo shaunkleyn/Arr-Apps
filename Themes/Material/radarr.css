@@ -1,0 +1,258 @@
+[class*=MovieIndexPoster-content-]{
+    position: relative;
+}
+
+[class*=PageSidebar-sidebarContainer-] {
+    background: var(--transparency-dark-25);
+    background: #2957C8;
+}
+
+[class*=PageContent-content-] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-x: hidden;
+    width: 100%;
+    background: white;
+	transition: all 200ms ease-in;
+}
+
+[class*=MovieCreditPoster-title-], [class*=MovieIndexPoster-nextAiring-], [class*=MovieIndexPoster-title-], [class*=MovieIndexPosterInfo-info-] {
+    /* background: rgb(237 237 237); */
+    color: #5f637e;
+    font-size: 13px;
+    /* padding: 3px 2px; */
+    /* border: 1px solid; */
+    overflow: auto !important;
+    text-overflow: revert !important;
+    white-space: pre-line !important;
+    /* width: fit-content; */
+    /* border-radius: 7px; */
+    /* padding: 0px 4px; */
+    /* font-size: 10px; */
+    width: 100%;
+    margin-top: -13px;
+}
+[class*=ProgressBar-container-] {
+    background: rgb(26 201 68);
+    transform: rotate(45deg);
+    top: 10px;
+    right: -38px;
+    position: absolute;
+    font-family: 'arial narrow';
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 11px !important;
+    box-shadow: -4px 7px 14px -4px #0000006b;
+    clip-path: polygon(37% 0%, 64% 0%, 98% 200%, 3% 200%);
+	transition: all 200ms ease-in-out;
+}
+
+[class*=ProgressBar-medium-] {
+    height: 25px;
+}
+
+[class*=MovieIndexPoster-link-] {
+    position: relative;
+    display: block;
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+
+[class*=MovieIndexPoster-content-] [class*=MovieIndexPoster-title-]:nth-of-type(4) {
+    background: #2957c8;
+    position: absolute;
+    top: 0;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+[class*=MovieIndexPoster-content-]:hover {
+    z-index: 2;
+    box-shadow: 0 0 12px #0000;
+    transition: all 200ms ease-in;
+}
+
+[class*=MovieIndexPoster-content-]:hover [class*=MovieIndexPoster-poster-]{
+    box-shadow: 0px 13px 16px 2px #1530724f;
+    transition: all 200ms ease-in-out;
+	transform: scale(1.1);
+}
+
+
+[class*=MovieIndexPoster-content-]:hover [class*=ProgressBar-container-]{
+    transition: all 200ms ease-in-out;
+	transform: scale(1.1) rotate(45deg) translateY(-7px) translateX(-2px);
+}
+
+
+
+[class*=MovieIndexPoster-poster-] {
+    position: relative;
+    display: block;
+    background-color: #2a212100;
+    border-radius: 10px;
+    box-shadow: 0px 9px 10px 6px #1530722e;
+    width: 123px !important;
+    height: 197px !important;
+    margin: 0 auto;
+	transition: all 200ms ease-in-out;
+}
+
+[class*=MovieIndexPoster-content-]:hover [class*=MovieIndexPoster-controls-] {
+    opacity: 0.9;
+    transition: opacity 200ms linear 150ms;
+    width: 78%;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    transform: translateY(-15px);
+    background-color: #ffffff00 !important;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white; 
+}
+
+[class*=Label-default-] [class*=IconButton-button-], [class*=Label-small-] [class*=IconButton-button-]:hover {
+	color: white !important;
+}
+
+[class*=MovieIndexPoster-content-]:hover [class*=MovieIndexPoster-link-]:before {
+    content: '';
+    width: 88%;
+    height: 83%;
+    background: #38668f91;
+    left: 9px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    border-radius: 10px;
+    bottom: 0;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(324deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(324deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgb(28 48 98) 0%, rgb(255 255 255 / 0%) 45%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+	    transition: all 200ms ease-in-out;
+}
+
+[class*=MovieIndexPoster-content-] [class*=MovieIndexPoster-link-]:before {
+    content: '';
+    width: 81%;
+    height: 74%;
+    background: #38668f91;
+    left: 15px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    border-radius: 10px;
+    bottom: 0;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(324deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(324deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgb(28 48 98) 0%, rgb(255 255 255 / 0%) 45%);
+	    transition: all 200ms ease-in-out;
+}
+
+.PageHeader-logoContainer-PM0fR {
+    display: flex;
+    align-items: center;
+    flex: 0 0 250px;
+    padding-left: 20px;
+    background: #2957c8;
+    height: 100%;
+}
+
+.PageSidebar-sidebarContainer-Yf8ze {
+    flex: 0 0 250px;
+    overflow: hidden;
+    width: 250px;
+    background-color: #595959;
+    transition: transform 300ms ease-in-out;
+    transform: translateX(0);
+}
+
+[class*=PageToolbar-toolbar-] {
+    background: rgb(255 255 255 / 25%);
+    color: #4070e7;
+}
+
+.MovieSearchInput-wrapper-FohSM {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.PageHeader-right-4XX6C {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    background: white;
+}
+
+[class*=PageToolbarButton-label-] {
+    color: #7e92c5;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.PageToolbarButton-toolbarButton-MuSHL {
+    padding-top: 4px;
+    /* width: 99px; */
+    text-align: center;
+    display: flex;
+    border: 1px solid;
+    height: fit-content;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.Icon-default--dtKM {
+    color: inherit;
+    padding-right: 9px;
+}
+
+[class*=MovieSearchInput-containerOpen-] [class*=MovieSearchInput-movieContainer-] {
+    border: none!important;
+    background: white;
+    background-repeat: repeat,no-repeat;
+    background-attachment: fixed,fixed;
+    background-position: center center,center center;
+    background-size: auto,cover;
+    -webkit-background-size: auto,cover;
+    -moz-background-size: auto,cover;
+    -o-background-size: auto,cover;
+    color: var(--text-hover)!important;
+    box-shadow: 1px 7px 20px -12px #153278;
+}
+
+[class*=CheckInput-isIndeterminate-], [class*=Input-input-] {
+    border: none;
+    background: var(--transparency-light-05);
+    color: #2957c8;
+}
+
+[class*=SearchResult-title-] {
+    color: rgb(97 118 171);
+}
+
+.MovieSearchResult-poster-dcKz- {
+    width: 35px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+[class*=MovieSearchResult-alternateTitle-] {
+    color: #a6b6c7;
+    font-size: 12px;
+}
