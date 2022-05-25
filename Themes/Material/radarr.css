@@ -256,3 +256,35 @@
     color: #a6b6c7;
     font-size: 12px;
 }
+
+.PageToolbarButton-toolbarButton-MuSHL {
+    padding-top: 4px;
+    /* width: 99px; */
+    text-align: center;
+    display: flex;
+    border: 1px solid;
+    height: fit-content;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.Icon-default--dtKM {
+    color: inherit;
+    padding-right: 9px;
+}
+
+.PageToolbarButton-labelContainer--QuYL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    line-height: 24px;
+}
+
+[class*=PageToolbarButton-label-] {
+    color: #7e92c5;
+    font-size: 14px;
+    white-space: nowrap;
+}
